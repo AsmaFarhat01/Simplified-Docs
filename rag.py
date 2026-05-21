@@ -54,7 +54,10 @@ def setup_rag(texts):
       return store[session_id]
 
     today = str(date.today())
-    system_message = " You are an expert career coach and recruiter. Answer the questions based on the context" + "Today's date is " + today
+    system_message = "You are a legal document assistant." \
+    " Your job is to help users understand contracts, agreements, and legal documents in plain English." \
+    " When answering, flag any risky or unusual clauses, explain legal jargon simply, and highlight what the user is agreeing to." \
+    " Always be clear and direct. Today's date is " + today
     prompt = ChatPromptTemplate.from_messages(
       [
           ("system",system_message + "\n\n {context}"),
