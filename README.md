@@ -1,7 +1,8 @@
 Built this to practice RAG pipelines end to end using real tools.
-# PDF Assistant
+# Simplified Docs
 
-A RAG-powered chatbot that answers questions based on uploaded PDF documents.
+A RAG-powered legal document assistant that reads contracts, leases, and terms of service — and explains them in plain English.
+
 
 ## Features
 - Upload any PDF and ask questions about it

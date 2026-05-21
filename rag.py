@@ -39,7 +39,7 @@ def setup_rag(texts):
     #persist_directory="./chroma_langchain_db",  # Where to save data locally, remove if not necessary
     )
 
-    retriever = vector_store.as_retriever(search_kwargs={"k":20})
+    retriever = vector_store.as_retriever(search_kwargs={"k":5})
     model = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash",
     temperature=1.0,  # Gemini 3.0+ defaults to 1.0
