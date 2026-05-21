@@ -3,10 +3,19 @@ Built this to practice RAG pipelines end to end using real tools.
 
 A RAG-powered legal document assistant that reads contracts, leases, and terms of service — and explains them in plain English.
 
+** LIVE DEMO **: https://pdf-assistant-kdqrhxjeb2wahzkij3rkj2.streamlit.app/  
+
+
+## What it does
+Upload any legal PDF and ask questions like:
+- "Are there any red flags?"
+- "What am I actually agreeing to?"
+- "Which clauses are risky for me?"
+
 
 ## Features
 - Upload any PDF and ask questions about it
-- Answers based strictly on document content
+- Flags risky clauses and explains legal jargon in plain English
 - Supports follow-up questions with conversation memory
 - Switch PDFs anytime — app resets automatically
 
